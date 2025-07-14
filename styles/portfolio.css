@@ -131,4 +131,66 @@ main section{
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
  }
+ /* resume style */
+
  
+ .education-section{
+    width: 50%;
+ }
+ .resume-container{
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+ }
+ .education-description{
+    color: gray;
+    display: flex;
+ }
+ .education-sub-title{
+    color: black;
+    font-size: 10pxpx;
+    font-weight: 600px;
+    margin-bottom: 20px;
+ }
+ .education-title{
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 15px;
+ }
+ .education-section-heading{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+ }
+ .resume hr{
+    margin: 30px 5px;
+ }
+ .resume-download-cv{
+    top: 50%;
+    margin-top: 50px;
+ }
+ .resume-title{
+    text-align: center;
+ }
+
+ /* footer style */
+ footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+ }
+
+ .footer-column{
+    width: 50%;
+ }
+
+ footer input[type="text"],  footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+ }
